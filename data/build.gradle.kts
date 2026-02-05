@@ -16,6 +16,7 @@ android {
 dependencies {
     // Module-specific dependencies go here
     implementation(project(":core"))
+    implementation(project(":domain"))
     //retrofit`
     implementation(libs.gsonConverter)
     implementation(libs.retrofit)
